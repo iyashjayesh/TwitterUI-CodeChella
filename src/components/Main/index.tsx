@@ -24,7 +24,7 @@ const Main: React.FC = () => {
 
         <ProfileInfo>
           <strong>Hashtags_bluebirds</strong>
-          <span>2 Tweets</span>
+          <span>6 Tweets</span>
         </ProfileInfo>
       </Header>
 
