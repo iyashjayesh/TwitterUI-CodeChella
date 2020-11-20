@@ -4,7 +4,7 @@ import Button from '../Button';
 import {
   Container,
   Topside,
-  Logo,
+  // Logo,
   MenuButton,
   HomeIcon,
   BellIcon,
