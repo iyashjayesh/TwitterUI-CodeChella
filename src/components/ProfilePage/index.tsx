@@ -33,11 +33,11 @@ const ProfilePage: React.FC = () => {
         <ul>
           <li>
             <LocationIcon />
-            London
+            India
           </li>
           <li>
             <CakeIcon />
-            Born on June 21, 2001
+            Born on Dec 22, 2000
           </li>
         </ul>
 
