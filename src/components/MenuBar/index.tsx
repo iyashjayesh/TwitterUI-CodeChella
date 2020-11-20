@@ -26,31 +26,35 @@ const MenuBar: React.FC = () => {
 
         <MenuButton>
           <HomeIcon />
-          <span>Página Inicial</span>
+          <span>Home page</span>
         </MenuButton>
 
         <MenuButton>
           <BellIcon />
-          <span>Notificações</span>
+          <span>Notifications</span>
         </MenuButton>
 
         <MenuButton>
           <EmailIcon />
-          <span>Mensagens</span>
+          <span>posts</span>
         </MenuButton>
 
         <MenuButton>
           <FavoriteIcon />
-          <span>Favoritados</span>
+          <span>Favorited</span>
         </MenuButton>
 
         <MenuButton className="active">
           <ProfileIcon />
-          <span>Perfil</span>
+          <span>Profile</span>
         </MenuButton>
 
         <Button>
-          <span>Tweetar</span>
+          <span>TweeShield</span>
+        </Button>
+
+        <Button>
+          <span>Tweet</span>
         </Button>
       </Topside>
 
