@@ -21,7 +21,7 @@ const ProfilePage: React.FC = () => {
       </Banner>
 
       <ProfileData>
-        <EditButton outlined>Editar perfil</EditButton>
+        <EditButton outlined>Edit profile</EditButton>
 
         <h1>Guilherme Rodz</h1>
         <h2>@guilherme_rodz</h2>
@@ -33,20 +33,20 @@ const ProfilePage: React.FC = () => {
         <ul>
           <li>
             <LocationIcon />
-            São Paulo, Brasil
+            London
           </li>
           <li>
             <CakeIcon />
-            Nascido(a) em 21 de junho de 2001
+            Born on June 21, 2001
           </li>
         </ul>
 
         <Followage>
           <span>
-            seguindo <strong>94</strong>
+          following <strong>94</strong>
           </span>
           <span>
-            <strong>672 </strong> seguidores
+            <strong>672 </strong> followers
           </span>
         </Followage>
       </ProfileData>

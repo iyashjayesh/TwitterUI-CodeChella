@@ -25,7 +25,13 @@ const MenuBar: React.FC = () => {
 
         <MenuButton>
           <HomeIcon />
+<<<<<<< HEAD
           <span>Home</span>
+||||||| 5a05e49
+          <span>Página Inicial</span>
+=======
+          <span>Home page</span>
+>>>>>>> 6265de2dbb391eea765c08abca2e22a1a3c9b045
         </MenuButton>
 
         <MenuButton>
@@ -35,17 +41,29 @@ const MenuBar: React.FC = () => {
 
         <MenuButton>
           <EmailIcon />
+<<<<<<< HEAD
           <span>Messages</span>
         </MenuButton>
 
         <MenuButton>
           <FavoriteIcon />
           <span>Sheild</span>
+||||||| 5a05e49
+          <span>Mensagens</span>
+=======
+          <span>posts</span>
+>>>>>>> 6265de2dbb391eea765c08abca2e22a1a3c9b045
         </MenuButton>
 
         <MenuButton>
           <FavoriteIcon />
+<<<<<<< HEAD
           <span>Fav</span>
+||||||| 5a05e49
+          <span>Favoritados</span>
+=======
+          <span>Favorited</span>
+>>>>>>> 6265de2dbb391eea765c08abca2e22a1a3c9b045
         </MenuButton>
 
         <MenuButton className="active">
@@ -54,7 +72,17 @@ const MenuBar: React.FC = () => {
         </MenuButton>
 
         <Button>
+<<<<<<< HEAD
           <span>Tweet</span>
+||||||| 5a05e49
+          <span>Tweetar</span>
+=======
+          <span>TweeShield</span>
+        </Button>
+
+        <Button>
+          <span>Tweet</span>
+>>>>>>> 6265de2dbb391eea765c08abca2e22a1a3c9b045
         </Button>
       </Topside>
 
