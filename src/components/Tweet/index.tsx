@@ -2,15 +2,15 @@ import React from 'react';
 
 import {
   Container,
-  Retweeted,
-  RocketseatIcon,
+  // Retweeted,
+  // RocketseatIcon,
   Body,
   Avatar,
   Content,
   Header,
   Dot,
   Description,
-  ImageContent,
+  // ImageContent,
   Icons,
   Status,
   CommentIcon,
