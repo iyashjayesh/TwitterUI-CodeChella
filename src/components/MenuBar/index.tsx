@@ -25,7 +25,7 @@ const MenuBar: React.FC = () => {
 
         <MenuButton>
           <HomeIcon />
-          <span>Home page</span>
+          <span>Home</span>
         </MenuButton>
 
         <MenuButton>
@@ -40,7 +40,7 @@ const MenuBar: React.FC = () => {
 
         <MenuButton>
           <FavoriteIcon />
-          <span>Favorited</span>
+          <span>Favorite</span>
         </MenuButton>
 
         <MenuButton className="active">
@@ -62,8 +62,8 @@ const MenuBar: React.FC = () => {
         <Avatar />
 
         <ProfileData>
-          <strong>Guilherme Rodz</strong>
-          <span>@guilherme_rodz</span>
+          <strong>Hashtags_bluebirds</strong>
+          <span>@Hashtags_bluebirds</span>
         </ProfileData>
 
         <ExitIcon />

@@ -21,10 +21,10 @@ import {
 const Tweet: React.FC = () => {
   return (
     <Container>
-      <Retweeted>
+      {/* <Retweeted>
         <RocketseatIcon />
         You retweeted
-      </Retweeted>
+      </Retweeted> */}
 
       <Body>
         <Avatar />
@@ -32,15 +32,15 @@ const Tweet: React.FC = () => {
         <Content>
           <Header>
             <strong></strong>
-            <span>@rocketseat</span>
+            <span>@UnDefined</span>
             <Dot />
             <time>28 June</time>
           </Header>
 
           {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
-          <Description>Rocket has no reverse 🚀</Description>
+          <Description>Rocket has no reverse 🚀 Rocket has no reverse 🚀Rocket has no reverse 🚀Rocket has no reverse 🚀</Description>
 
-          <ImageContent />
+          {/* <ImageContent /> */}
 
           <Icons>
             <Status>
