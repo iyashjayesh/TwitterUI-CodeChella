@@ -18,7 +18,7 @@ import {
   LikeIcon,
 } from './styles';
 
-import { FollowButton } from './tweet'
+import { FollowButton,ButtonGrp } from './tweet'
 
 
 const Tweet: React.FC = () => {
@@ -60,9 +60,11 @@ const Tweet: React.FC = () => {
               999
             </Status>
           </Icons> */}
-          <FollowButton outlined>Ignore</FollowButton>
+          <ButtonGrp style={{flexDirection:'row', flexWrap:'wrap'}}>
+            <FollowButton outlined>Ignore</FollowButton>
 
-          <FollowButton outlined>Block & Report</FollowButton>
+            <FollowButton outlined>Block & Report</FollowButton>
+          </ButtonGrp>
         </Content>
       </Body>
     </Container>

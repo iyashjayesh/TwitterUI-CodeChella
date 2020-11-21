@@ -34,6 +34,15 @@ export const Info = styled.div`
   }
 `;
 
+export const ButtonGrp = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  margin-top:10px;
+  }
+`;
+
 export const FollowButton = styled(Button)`
   padding: 6px 17px;
+  margin-right:10px;
 `;
