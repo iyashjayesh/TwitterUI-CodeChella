@@ -18,6 +18,9 @@ import {
   LikeIcon,
 } from './styles';
 
+import { FollowButton } from './tweet'
+
+
 const Tweet: React.FC = () => {
   return (
     <Container>
@@ -38,11 +41,12 @@ const Tweet: React.FC = () => {
           </Header>
 
           {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
-          <Description>Rocket has no reverse 🚀 Rocket has no reverse 🚀Rocket has no reverse 🚀Rocket has no reverse 🚀</Description>
+          <Description>User Name</Description>
+          <Description>Bio</Description>
 
           {/* <ImageContent /> */}
 
-          <Icons>
+          {/* <Icons>
             <Status>
               <CommentIcon />
               18
@@ -55,7 +59,10 @@ const Tweet: React.FC = () => {
               <LikeIcon />
               999
             </Status>
-          </Icons>
+          </Icons> */}
+          <FollowButton outlined>Ignore</FollowButton>
+
+          <FollowButton outlined>Block & Report</FollowButton>
         </Content>
       </Body>
     </Container>

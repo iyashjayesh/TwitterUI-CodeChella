@@ -35,7 +35,7 @@ const MenuBar: React.FC = () => {
 
         <MenuButton>
           <EmailIcon />
-          <span>posts</span>
+          <span>Posts</span>
         </MenuButton>
 
         <MenuButton>
@@ -43,14 +43,19 @@ const MenuBar: React.FC = () => {
           <span>Favorite</span>
         </MenuButton>
 
-        <MenuButton className="active">
+        <MenuButton >
           <ProfileIcon />
           <span>Profile</span>
         </MenuButton>
 
-        <MenuButton>
+        <MenuButton className="active">
           <FavoriteIcon />
           <span>TweeShield</span>
+        </MenuButton>
+
+        <MenuButton >
+          <FavoriteIcon />
+          <span>View in AR</span>
         </MenuButton>
 
         <Button>
