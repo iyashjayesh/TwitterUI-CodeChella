@@ -38,13 +38,8 @@ const SideBar: React.FC = () => {
             ]}
           />
           <List
-            title="Whats's happening!"
+            title="Blocked Users"
             elements={[
-              <News />,
-              <News />,
-              <News />,
-              <News />,
-              <News />,
               <News />,
             ]}
           />

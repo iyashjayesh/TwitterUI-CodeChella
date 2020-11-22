@@ -23,7 +23,7 @@ const ProfilePage: React.FC = () => {
       <ProfileData>
         <EditButton outlined>Edit profile</EditButton>
 
-        <h1>Team: UnDefined</h1>
+        <h1>Yash Chauhan is at #CodeChella</h1>
         <h2>@hashtags_bluebirds</h2>
 
         <p>

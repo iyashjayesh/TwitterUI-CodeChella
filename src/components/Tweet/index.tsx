@@ -22,6 +22,9 @@ import { FollowButton,ButtonGrp } from './tweet'
 
 
 const Tweet: React.FC = () => {
+  
+  
+
   return (
     <Container>
       {/* <Retweeted>
@@ -35,14 +38,15 @@ const Tweet: React.FC = () => {
         <Content>
           <Header>
             <strong></strong>
-            <span>@UnDefined</span>
+            <span>@CodechellaT</span>
             <Dot />
-            <time>28 June</time>
+            <time>22 Nov</time>
           </Header>
 
           {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
-          <Description>User Name</Description>
-          <Description>Bio</Description>
+          <Description>(Test Tweet to check the feature of BlueBirds at CodeChella)
+ , I do not wish to say this but just to check our model, <b><u>Fuck you</u></b> (NONONONO)!</Description>
+          
 
           {/* <ImageContent /> */}
 
@@ -64,6 +68,8 @@ const Tweet: React.FC = () => {
             <FollowButton outlined>Ignore</FollowButton>
 
             <FollowButton outlined>Block & Report</FollowButton>
+
+            <FollowButton outlined>Remove Tag</FollowButton>
           </ButtonGrp>
         </Content>
       </Body>
